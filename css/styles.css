@@ -72,3 +72,11 @@ nav a {
 #subSectionOne {
     background-image: linear-gradient(to bottom right, #58DCF1, lightgray);
 }
+
+#subSectionTwo {
+    background-image: linear-gradient(to bottom right, #58DCF1, lightgray);
+}
+
+#subSectionThree {
+    background-image: linear-gradient(to bottom right, white, darkred);
+}
