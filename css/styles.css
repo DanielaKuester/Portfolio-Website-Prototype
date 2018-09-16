@@ -18,6 +18,7 @@ nav {
     z-index: 99;
     text-align: center;
     font-size: 2rem;
+    font-family: 'Kite One', sans-serif;
 }
 
 nav a {
@@ -39,6 +40,9 @@ nav a {
 .subSection {
     height: 50%;
     background-color: ghostwhite;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    padding: 10px 20px;
 }
 
 .sectOne {
