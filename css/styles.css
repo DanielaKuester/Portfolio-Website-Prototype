@@ -68,3 +68,7 @@ nav a {
     text-align: right;
     font-family: 'Kite One', sans-serif;
 }
+
+#subSectionOne {
+    background-image: linear-gradient(to bottom right, #58DCF1, lightgray);
+}
