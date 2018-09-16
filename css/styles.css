@@ -58,7 +58,7 @@ nav a {
 }
 
 .sectFour {
-    background-image: url("../img/london-phonebooth.jpg");
+    background-image: url("../img/london-phonebooth-single.jpg");
 }
 
 #home {
@@ -70,13 +70,13 @@ nav a {
 }
 
 #subSectionOne {
-    background-image: linear-gradient(to bottom right, #58DCF1, lightgray);
+    background-image: linear-gradient(to bottom right, lightgray, #58DCF1);
 }
 
 #subSectionTwo {
-    background-image: linear-gradient(to bottom right, #58DCF1, lightgray);
+    background-image: linear-gradient(to bottom right, lightgray, #02ccba);
 }
 
 #subSectionThree {
-    background-image: linear-gradient(to bottom right, white, darkred);
+    background: linear-gradient(to bottom right, #02ccba 0%, #aa7ecd 100%);
 }
