@@ -67,13 +67,14 @@ nav a {
 }
 
 #home {
-    width: 15%;
+    width: 18%;
     padding-top: 10%;
-    padding-left: 80%;
+    padding-left: 75%;
     text-align: right;
     font-family: 'Kite One', sans-serif;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 2px gray;
     animation: appear 10s;
-    font-weight: 900;
 }
 
 #subSectionOne {
