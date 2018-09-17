@@ -89,3 +89,8 @@ nav a {
 #subSectionThree {
     background: linear-gradient(to bottom right, #02ccba 0%, #aa7ecd 100%);
 }
+
+.aboutMeText {
+    width: 30%;
+    text-align: justify;
+}
