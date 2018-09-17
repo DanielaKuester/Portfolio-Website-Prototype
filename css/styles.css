@@ -61,12 +61,19 @@ nav a {
     background-image: url("../img/london-phonebooth-single.jpg");
 }
 
+@keyframes appear {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
 #home {
     width: 15%;
     padding-top: 10%;
     padding-left: 80%;
     text-align: right;
     font-family: 'Kite One', sans-serif;
+    animation: appear 10s;
+    font-weight: 900;
 }
 
 #subSectionOne {
