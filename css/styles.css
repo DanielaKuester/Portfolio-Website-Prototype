@@ -42,7 +42,7 @@ nav a {
     background-color: ghostwhite;
     font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
-    padding: 10px 20px;
+    padding: 40px 20px;
 }
 
 .sectOne {
@@ -59,6 +59,22 @@ nav a {
 
 .sectFour {
     background-image: url("../img/london-phonebooth-single.jpg");
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.image {
+    height: 100%;
+    width: 25%;
+}
+
+.aboutMeText {
+    width: 30%;
+    text-align: justify;
 }
 
 @keyframes appear {
@@ -90,7 +106,6 @@ nav a {
     background: linear-gradient(to bottom right, #02ccba 0%, #aa7ecd 100%);
 }
 
-.aboutMeText {
-    width: 30%;
-    text-align: justify;
+#profilePic {
+    width: 28%;
 }
