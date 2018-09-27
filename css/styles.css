@@ -95,7 +95,6 @@ nav a {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 2.7rem;
     font-style: oblique;
-    text-shadow: 3px 3px 3px gray;
     animation: appear 10s;
 }
 
