@@ -99,15 +99,16 @@ nav a {
 }
 
 #subSectionOne {
-    background: linear-gradient(to bottom right, lightgray, #58DCF1);
+    background: linear-gradient(to bottom right, white, beige);
+    /*color: burlywood*/
 }
 
 #subSectionTwo {
-    background: linear-gradient(to bottom right, lightgray, #02ccba);
+    background: linear-gradient(to bottom right, beige, bisque);
 }
 
 #subSectionThree {
-    background: linear-gradient(to bottom right, #02ccba 0%, #aa7ecd 100%);
+    background: linear-gradient(to bottom right, bisque, beige);
 }
 
 #profilePic {
