@@ -28,6 +28,10 @@ nav a {
     line-height: 70px;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 .section {
     height: 100%;
     background-size: cover;
