@@ -114,12 +114,12 @@ nav a {
 }
 
 #home {
-    width: 18%;
+    width: 17%;
     padding-top: 10%;
     padding-left: 75%;
     text-align: right;
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-style: oblique;
     animation: appear 10s;
 }
