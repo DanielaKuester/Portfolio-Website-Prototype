@@ -41,7 +41,7 @@
         <img class="image" id="profilePic" src="./img/profile-square.jpg" alt="Daniela Küster's profile picture">
     </div>
     <div class="section sectTwo"></div>
-    <div class="subSection container slideshow-container" id="subSectionTwo">
+    <div class="subSection slideshow-container" id="subSectionTwo">
         <!--
             The implementation of the slideshow (previous and next buttons, JavaScript code, CSS styling)
             is modelled after the following tutorial: https://www.w3schools.com/howto/howto_js_slideshow.asp
@@ -93,6 +93,15 @@
         </div>
         <!-- Next button -->
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <br>
+
+        <!-- The dots/circles -->
+        <div class="dotBox">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
     </div>
     <div class="section sectThree"></div>
     <div class="subSection container" id="subSectionThree">
