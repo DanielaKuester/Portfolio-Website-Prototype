@@ -65,6 +65,11 @@ nav a:hover {
     background-image: url("../img/london-phonebooth-single.jpg");
 }
 
+.slideshow-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -85,23 +90,6 @@ nav a:hover {
     width: 20%;
     text-align: justify;
 }
-
-/* Next & previous buttons */
-/*
-.prev, .next {
-    cursor: pointer;
-    top: 50%;
-    width: auto;
-    position: center;
-    padding: 16px;
-    margin: 205px 0;
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-}
-*/
 
 /* Next & previous buttons */
 .prev, .next {
@@ -172,9 +160,9 @@ nav a:hover {
 
 #subSectionTwo {
     background: linear-gradient(to bottom right, beige, bisque);
-    display: flex;
+    /*display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-evenly;*/
 }
 
 #subSectionThree {
