@@ -137,6 +137,11 @@ nav a:hover {
     background-color: #717171;
 }
 
+/* Hide the slides by default */
+.mySlides {
+    display: none;
+}
+
 /* Fading animation for slideshow */
 .fade {
     -webkit-animation-name: fade;
