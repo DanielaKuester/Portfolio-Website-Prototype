@@ -183,19 +183,19 @@ nav a:hover {
 }
 
 #subSectionOne {
-    background: linear-gradient(to bottom right, white, beige);
+    background: linear-gradient(to bottom right, white, white, white, lightblue);
     /*color: burlywood*/
 }
 
 #subSectionTwo {
-    background: linear-gradient(to bottom right, beige, bisque);
+    background: linear-gradient(to bottom right, white, white, white, lightblue);
     /*display: flex;
     flex-direction: row;
     justify-content: space-evenly;*/
 }
 
 #subSectionThree {
-    background: linear-gradient(to bottom right, bisque, beige);
+    background: linear-gradient(to bottom right, white, white, white, lightblue);
 }
 
 #profilePic {
