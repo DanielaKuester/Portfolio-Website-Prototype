@@ -140,6 +140,12 @@ nav a:hover {
 /* Hide the slides by default */
 .mySlides {
     display: none;
+    border-top: 2px rgba(0, 0, 0);
+    -webkit-box-shadow: 0 0 8px 0 rgba(17,22,26,0.16), 0 4px 8px 0 rgba(17,22,26,0.08), 0 8px 16px 0 rgba(17,22,26,0.08);
+    -moz-box-shadow: 0 0 8px 0 rgba(17,22,26,0.16), 0 4px 8px 0 rgba(17,22,26,0.08), 0 8px 16px 0 rgba(17,22,26,0.08);
+    box-shadow: 0 0 8px 0 rgba(17,22,26,0.16), 0 4px 8px 0 rgba(17,22,26,0.08), 0 8px 16px 0 rgba(17,22,26,0.08);
+    margin: 0 10px 20px;
+    padding-top: 15px;
 }
 
 /* Fading animation for slideshow */
