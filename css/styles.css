@@ -126,7 +126,8 @@ nav a:hover {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #02b3e4;
+    opacity: 0.4;
     border-radius: 50%;
     flex-direction: row;
     display: inline-block;
@@ -134,7 +135,8 @@ nav a:hover {
 }
   
 .active, .dot:hover {
-    background-color: #717171;
+    background-color: #02b3e4;
+    opacity: 1;
 }
 
 /* Hide the slides by default */
