@@ -86,6 +86,11 @@ nav a:hover {
     width: 100%;
 }
 
+#squirrel-img {
+    height: 80%;
+    width: 100%;
+}
+
 .aboutMe {
     display: flex;
     flex-direction: row;
