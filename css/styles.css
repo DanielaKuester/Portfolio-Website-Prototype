@@ -81,6 +81,11 @@ nav a:hover {
     width: 25%;
 }
 
+.img {
+    height: 80%;
+    width: 100%;
+}
+
 .aboutMe {
     display: flex;
     flex-direction: row;
