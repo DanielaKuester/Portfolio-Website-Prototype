@@ -45,8 +45,8 @@ nav a:hover {
     height: 50%;
     background-color: ghostwhite;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.3rem;
-    padding: 40px 20px;
+    font-size: 1.2rem;
+    padding: 30px 20px 80px;
 }
 
 .sectOne {
@@ -82,13 +82,13 @@ nav a:hover {
 }
 
 .img {
-    height: 90%;
-    width: 100%;
+    height: 85%;
+    width: 85%;
 }
 
 #squirrel-img {
-    height: 80%;
-    width: 90%;
+    height: 75%;
+    width: 80%;
 }
 
 .aboutMe {
@@ -123,8 +123,9 @@ nav a:hover {
 }
 
 .textBox {
-    width: 20%;
+    width: 25%;
     text-align: justify;
+    margin: 20px;
 }
 
 /* Next & previous buttons */
@@ -182,8 +183,8 @@ nav a:hover {
     -webkit-box-shadow: 0 0 8px 0 rgba(17,22,26,0.16), 0 4px 8px 0 rgba(17,22,26,0.08), 0 8px 16px 0 rgba(17,22,26,0.08);
     -moz-box-shadow: 0 0 8px 0 rgba(17,22,26,0.16), 0 4px 8px 0 rgba(17,22,26,0.08), 0 8px 16px 0 rgba(17,22,26,0.08);
     box-shadow: 0 0 8px 0 rgba(17,22,26,0.16), 0 4px 8px 0 rgba(17,22,26,0.08), 0 8px 16px 0 rgba(17,22,26,0.08);
-    margin: 0 20px 20px;
     padding-top: 15px;
+    margin: 20px;
     background: white;
 }
 
