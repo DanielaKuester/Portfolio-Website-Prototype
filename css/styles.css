@@ -45,7 +45,7 @@ nav a:hover {
     height: 50%;
     background-color: ghostwhite;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding: 30px 20px 80px;
 }
 
@@ -82,8 +82,8 @@ nav a:hover {
 }
 
 .img {
-    height: 87%;
-    width: 87%;
+    height: 84%;
+    width: 84%;
 }
 
 #squirrel-img {
@@ -243,7 +243,7 @@ nav a:hover {
 }
 
 /** Make website responsive for tablets **/
-@media screen and (min-width: 1000px) and (max-width: 1600px) {
+@media screen and (min-width: 901px) and (max-width: 1600px) {
 	.textBox {
         width: 30%;
         text-align: justify;
@@ -251,16 +251,16 @@ nav a:hover {
     }
 
     .subSection {
-        padding: 30px 20px 80px;
-    }
-
-    #squirrel-img {
-        height: 300px;
-        width: 300px;
+        padding: 30px 20px 90px;
     }
 
     .img {
-        height: 380px;
-        width: 380px;
+        height: 84%;
+        width: 84%;
+    }
+    
+    #squirrel-img {
+        height: 75%;
+        width: 80%;
     }
 }
