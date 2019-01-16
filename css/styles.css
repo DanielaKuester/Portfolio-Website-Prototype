@@ -232,11 +232,6 @@ nav a:hover {
 
 /** Make website responsive for smartphones **/
 @media screen and (max-width: 900px) {
-
-    .container {
-
-    }
-
 	.textBox {
         width: 100%;
         text-align: justify;
