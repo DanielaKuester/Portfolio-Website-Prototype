@@ -82,8 +82,8 @@ nav a:hover {
 }
 
 .img {
-    height: 85%;
-    width: 85%;
+    height: 87%;
+    width: 87%;
 }
 
 #squirrel-img {
@@ -123,7 +123,7 @@ nav a:hover {
 }
 
 .textBox {
-    width: 25%;
+    width: 23%;
     text-align: justify;
     margin: 20px;
 }
@@ -184,7 +184,7 @@ nav a:hover {
     -moz-box-shadow: 0 0 8px 0 rgba(17,22,26,0.16), 0 4px 8px 0 rgba(17,22,26,0.08), 0 8px 16px 0 rgba(17,22,26,0.08);
     box-shadow: 0 0 8px 0 rgba(17,22,26,0.16), 0 4px 8px 0 rgba(17,22,26,0.08), 0 8px 16px 0 rgba(17,22,26,0.08);
     padding-top: 15px;
-    margin: 20px;
+    margin: 15px;
     background: white;
 }
 
