@@ -242,6 +242,33 @@ nav a:hover {
     width: 25%;
 }
 
+/** Make website responsive for smartphones **/
+@media screen and (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+
+	.textBox {
+        width: 100%;
+        text-align: justify;
+        font-size: 0.85em;
+    }
+
+    .subSection {
+        padding: 30px 20px 90px;
+    }
+
+    .img {
+        height: 84%;
+        width: 84%;
+    }
+    
+    #squirrel-img {
+        height: 75%;
+        width: 80%;
+    }
+}
+
 /** Make website responsive for tablets **/
 @media screen and (min-width: 901px) and (max-width: 1600px) {
 	.textBox {
