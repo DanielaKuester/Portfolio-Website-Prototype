@@ -82,13 +82,13 @@ nav a:hover {
 }
 
 .img {
-    height: 84%;
-    width: 84%;
+    height: 83%;
+    width: 83%;
 }
 
 #squirrel-img {
-    height: 75%;
-    width: 80%;
+    height: 70%;
+    width: 79%;
 }
 
 .aboutMe, .contact {
@@ -111,7 +111,7 @@ nav a:hover {
 }
 
 .textBox {
-    width: 23%;
+    width: 22%;
     text-align: justify;
     margin: 20px;
 }
@@ -264,12 +264,12 @@ nav a:hover {
     }
 
     .subSection {
-        padding: 30px 20px 90px;
+        padding: 30px 20px 70px;
     }
 
     .img {
-        height: 84%;
-        width: 84%;
+        height: 80%;
+        width: 80%;
     }
     
     #squirrel-img {
