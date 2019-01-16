@@ -242,14 +242,24 @@ nav a:hover {
 }
 
 /** Make website responsive for tablets **/
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1000px) and (max-width: 1600px) {
 	.textBox {
-        width: 35%;
+        width: 30%;
         text-align: justify;
         font-size: 0.85em;
     }
 
     .subSection {
         padding: 30px 20px 80px;
+    }
+
+    #squirrel-img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .img {
+        height: 380px;
+        width: 380px;
     }
 }
