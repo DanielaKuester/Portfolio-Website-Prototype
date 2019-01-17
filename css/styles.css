@@ -226,6 +226,10 @@ nav a:hover {
     background: linear-gradient(to bottom right, white, white, white, lightblue);
 }
 
+#contact {
+    flex-direction: column;
+}
+
 #profilePic {
     width: 25%;
 }
@@ -294,7 +298,11 @@ nav a:hover {
 }
 
 /* Make website responsive to smartphones */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
+
+    #home {
+        font-size: 1rem;
+    }
     
     h2 {
         margin: 2px 0 5px 0;
