@@ -274,10 +274,23 @@ nav a:hover {
 
 /* Make website responsive to small tablets */
 @media screen and (max-width: 900px) {
+    p {
+        font-size: 0.9rem;
+    }
+
+    #aboutMeText {
+        width: 52%;
+    }
+
+    #profilePic {
+        width: 200px;
+        height: 200px;
+    }
+
 	.textBox {
         width: 100%;
         text-align: justify;
-        font-size: 0.85em;
+        font-size: 0.85rem;
     }
 
     .subSection {
@@ -285,9 +298,12 @@ nav a:hover {
     }
 
     .img {
-        float: top right;
         height: 200px;
         width: 200px;
+    }
+
+    #google {
+        display: none;
     }
     
     #squirrel-img {
