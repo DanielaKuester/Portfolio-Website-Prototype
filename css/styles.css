@@ -230,45 +230,26 @@ nav a:hover {
     width: 25%;
 }
 
-/* Make website responsive to smartphones */
-@media screen and (max-width: 600px) {
+/* Make website responsive to big tablets */
+@media screen and (min-width: 901px) and (max-width: 1600px) {
+	.textBox {
+        width: 30%;
+        text-align: justify;
+        font-size: 0.85em;
+    }
+
+    .subSection {
+        padding: 30px 20px 70px;
+    }
+
+    .img {
+        height: 80%;
+        width: 80%;
+    }
     
-    h2 {
-        margin: 2px 0 5px 0;
-    }
-
-    p {
-        font-size: 0.8em;
-        width: 100%;
-    }
-
-    .hidden {
-        display: none;
-    }
-
-    .aboutMe {
-        margin: 0 5px 20px;
-        padding: 20px;
-    }
-
-    #aboutMeText {
-        width: 150%;
-        padding: 0;
-    }
-
-    .mobile {
-        flex-direction: column;
-        padding: 0;
-    }
-
-    .textBox {
-        margin: 0;
-        padding: 0;
-        font-size: 0.8em;
-    }
-
-    .prev, .next {
-        padding: 2px;
+    #squirrel-img {
+        height: 75%;
+        width: 80%;
     }
 }
 
@@ -312,25 +293,44 @@ nav a:hover {
     }
 }
 
-/* Make website responsive to big tablets */
-@media screen and (min-width: 901px) and (max-width: 1600px) {
-	.textBox {
-        width: 30%;
-        text-align: justify;
-        font-size: 0.85em;
-    }
-
-    .subSection {
-        padding: 30px 20px 70px;
-    }
-
-    .img {
-        height: 80%;
-        width: 80%;
-    }
+/* Make website responsive to smartphones */
+@media screen and (max-width: 600px) {
     
-    #squirrel-img {
-        height: 75%;
-        width: 80%;
+    h2 {
+        margin: 2px 0 5px 0;
+    }
+
+    p {
+        font-size: 0.8em;
+        width: 100%;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .aboutMe {
+        margin: 0 5px 20px;
+        padding: 20px;
+    }
+
+    #aboutMeText {
+        width: 150%;
+        padding: 0;
+    }
+
+    .mobile {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .textBox {
+        margin: 0;
+        padding: 0;
+        font-size: 0.8em;
+    }
+
+    .prev, .next {
+        padding: 2px;
     }
 }
