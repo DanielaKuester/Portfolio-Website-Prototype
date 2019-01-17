@@ -230,7 +230,14 @@ nav a:hover {
     width: 25%;
 }
 
-/** Make website responsive for smartphones **/
+/* Make website responsive to smartphones */
+@media screen and (max-width: 600px) {
+    .mobile {
+        flex-direction: column;
+    }
+}
+
+/* Make website responsive to small tablets */
 @media screen and (max-width: 900px) {
 	.textBox {
         width: 100%;
@@ -249,13 +256,12 @@ nav a:hover {
     }
     
     #squirrel-img {
-        float: right;
         height: 150px;
         width: 150px;
     }
 }
 
-/** Make website responsive for tablets **/
+/* Make website responsive to big tablets */
 @media screen and (min-width: 901px) and (max-width: 1600px) {
 	.textBox {
         width: 30%;
