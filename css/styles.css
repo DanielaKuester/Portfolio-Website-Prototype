@@ -43,7 +43,7 @@ nav a:hover {
 
 .subSection {
     height: 50%;
-    background-color: ghostwhite;
+    background: linear-gradient(to bottom right, white, white, white, lightblue);
     font-family: 'Raleway', sans-serif;
     font-size: 1.1rem;
     padding: 30px 20px 80px;
@@ -208,22 +208,6 @@ nav a:hover {
     font-size: 2rem;
     font-style: oblique;
     animation: appear 10s;
-}
-
-#subSectionOne {
-    background: linear-gradient(to bottom right, white, white, white, lightblue);
-    /*color: burlywood*/
-}
-
-#subSectionTwo {
-    background: linear-gradient(to bottom right, white, white, white, lightblue);
-    /*display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;*/
-}
-
-#subSectionThree {
-    background: linear-gradient(to bottom right, white, white, white, lightblue);
 }
 
 #contact {
