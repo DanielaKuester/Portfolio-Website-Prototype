@@ -32,6 +32,24 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.fab {
+    color: #02b3e4;
+    opacity: 0.6;
+}
+
+.fab:hover {
+    color: #02b3e4;
+    opacity: 1;
+}
+
+.social__media {
+    list-style: none outside;
+}
+
+#contact__container {
+    justify-content: space-between;
+}
+
 .section {
     height: 100%;
     background-size: cover;
