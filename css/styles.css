@@ -136,6 +136,10 @@ nav a:hover {
     margin: 20px;
 }
 
+#current {
+    width: 50%;
+}
+
 /* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
