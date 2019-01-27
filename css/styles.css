@@ -267,6 +267,14 @@ nav a:hover {
         font-size: 0.9rem;
     }
 
+    nav {
+        font-size: 1.3rem;
+    }
+
+    #home {
+        font-size: 1.3rem;
+    }
+
     #aboutMeText {
         width: 52%;
     }
@@ -303,10 +311,6 @@ nav a:hover {
 
 /* Make website responsive to smartphones */
 @media screen and (max-width: 650px) {
-
-    #home {
-        font-size: 1rem;
-    }
 
     #subSectionTwo {
         padding: 0 10px 160px 0;
