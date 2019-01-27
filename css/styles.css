@@ -48,6 +48,8 @@ nav a:hover {
 
 #contact__container {
     justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .section {
